@@ -9,7 +9,7 @@ chat_id = 5
 
 #스크래핑
 url = "https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&oid=008&listType=paper"
-headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"}
+headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit"}
 
 res = requests.get(url, headers=headers)
 soup = BeautifulSoup(res.text, "lxml")
