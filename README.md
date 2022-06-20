@@ -20,3 +20,6 @@ paper news scrapping bot (telegram)
 *Amazon EventBridge는 다양한 소스의 데이터와 애플리케이션을 연결하는 데 사용할 수 있는 서버리스 이벤트 버스 서비스
 
  
+## 사용 라이브러리
+bs4 라이브러리/ beautifulsoup 모듈 사용해서 웹 스크래핑
+reqeusts 라이브러리 사용해서 데이터 txt파일로 저장
