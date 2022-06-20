@@ -3,9 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 import telegram
 
-token="5435095329:AAGeJDfZ9dpsgcvKAYGIEiH0hzjVYDDHfzY"
+token=""
 bot = telegram.Bot(token = token)
-chat_id = 5534056334
+chat_id = 5
 
 #스크래핑
 url = "https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&oid=008&listType=paper"
